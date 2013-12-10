@@ -13,6 +13,7 @@ apps:
   info: https://github.com/bacongobbler/helloworld-django.git#readme
   icon: http://get.stackato.com/store/icon/django.png
   commit: stackato
+  mem: 32
 
 - name: Hello Python
   id: helloworld-python
@@ -23,3 +24,4 @@ apps:
   info: https://github.com/bacongobbler/helloworld-python.git#readme
   icon: http://get.stackato.com/store/icon/python.png
   commit: stackato
+  mem: 32
