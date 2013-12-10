@@ -14,12 +14,12 @@ apps:
   icon: http://get.stackato.com/store/icon/django.png
   commit: stackato
 
-- name: Hello Go
-  id: helloworld-go
-  desc: Helloworld app for Golang
-  framework: Go
-  runtime: Go
-  src: https://github.com/bacongobbler/helloworld-go.git
-  info: https://github.com/bacongobbler/helloworld-go.git#readme
-  icon: http://get.stackato.com/store/icon/go.png
+- name: Hello Python
+  id: helloworld-python
+  desc: Helloworld app for the Tornado framework
+  framework: Tornado
+  runtime: Python
+  src: https://github.com/bacongobbler/helloworld-python.git
+  info: https://github.com/bacongobbler/helloworld-python.git#readme
+  icon: http://get.stackato.com/store/icon/python.png
   commit: stackato
