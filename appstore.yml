@@ -44,7 +44,7 @@ apps:
   runtime: ruby
   src: https://github.com/bacongobbler/helloworld-sinatra.git
   info: https://github.com/bacongobbler/helloworld-sinatra.git#readme
-  icon: http://jrom.net/files/page-caching-with-sinatra-and-nginx/sinatra.gif
+  icon: http://www.sinatrarb.com/images/logo.png
   commit: stackato
   mem: 32
 
