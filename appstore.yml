@@ -7,7 +7,7 @@ apps:
 - name: Hello Django
   id: helloworld-django
   desc: Helloworld app for Django
-  framework: Django
+  framework: django
   runtime: python
   src: https://github.com/bacongobbler/helloworld-django.git
   info: https://github.com/bacongobbler/helloworld-django.git#readme
@@ -15,13 +15,24 @@ apps:
   commit: stackato
   mem: 32
 
-- name: Hello Python
-  id: helloworld-python
+- name: Hello Tornado
+  id: helloworld-tornado
   desc: Helloworld app for the Tornado framework
-  framework: Tornado
+  framework: tornado
   runtime: python
-  src: https://github.com/bacongobbler/helloworld-python.git
-  info: https://github.com/bacongobbler/helloworld-python.git#readme
+  src: https://github.com/bacongobbler/helloworld-tornado.git
+  info: https://github.com/bacongobbler/helloworld-tornado.git#readme
   icon: http://get.stackato.com/store/icon/python.png
+  commit: stackato
+  mem: 32
+
+- name: Hello Go
+  id: helloworld-go
+  desc: Helloworld app for Golang
+  framework: go
+  runtime: go
+  src: https://github.com/bacongobbler/helloworld-go.git
+  info: https://github.com/bacongobbler/helloworld-go.git#readme
+  icon: http://get.stackato.com/store/icon/go.png
   commit: stackato
   mem: 32
