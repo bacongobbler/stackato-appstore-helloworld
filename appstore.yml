@@ -37,6 +37,17 @@ apps:
   commit: stackato
   mem: 32
 
+- name: Hello Sinatra
+  id: helloworld-sinatra
+  desc: Helloworld app for Sinatra
+  framework: sinatra
+  runtime: ruby
+  src: https://github.com/bacongobbler/helloworld-sinatra.git
+  info: https://github.com/bacongobbler/helloworld-sinatra.git#readme
+  icon: http://jrom.net/files/page-caching-with-sinatra-and-nginx/sinatra.gif
+  commit: stackato
+  mem: 32
+
 - name: Hello Tornado
   id: helloworld-tornado
   desc: Helloworld app for the Tornado framework
