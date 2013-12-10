@@ -8,7 +8,7 @@ apps:
   id: helloworld-django
   desc: Helloworld app for Django
   framework: Django
-  runtime: python27
+  runtime: python
   src: https://github.com/bacongobbler/helloworld-django.git
   info: https://github.com/bacongobbler/helloworld-django.git#readme
   icon: http://get.stackato.com/store/icon/django.png
@@ -18,7 +18,7 @@ apps:
   id: helloworld-python
   desc: Helloworld app for the Tornado framework
   framework: Tornado
-  runtime: python27
+  runtime: python
   src: https://github.com/bacongobbler/helloworld-python.git
   info: https://github.com/bacongobbler/helloworld-python.git#readme
   icon: http://get.stackato.com/store/icon/python.png
