@@ -4,6 +4,17 @@ store:
   icon: https://1.gravatar.com/avatar/65e1d16c6d56dd57fa47b30dcb429eed?d=https%3A%2F%2Fidenticons.github.com%2F6592347ac33f728be4e8b1e6e9f86748.png&r=x&s=32
 
 apps:
+- name: Hello Clojure
+  id: helloworld-clojure
+  desc: Helloworld app for Clojure
+  framework: java
+  runtime: clojure
+  src: https://github.com/bacongobbler/helloworld-clojure.git
+  info: https://github.com/bacongobbler/helloworld-clojure.git#readme
+  icon: http://get.stackato.com/store/icon/clojure.png
+  commit: stackato
+  mem: 32
+
 - name: Hello Django
   id: helloworld-django
   desc: Helloworld app for Django
